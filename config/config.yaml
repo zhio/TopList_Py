@@ -5,7 +5,7 @@ COMMON: &common #标识
   SECRET_KEY: insecure
 
   #数据库连接
-  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://root@127.0.0.1:3306/rongv?charset=utf8mb4'
+  SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://root@127.0.0.1:3306/toplist?charset=utf8mb4'
   SQLALCHEMY_TRACK_MODIFICATIONS: False
   #日志文件
   LOGGING_CONFIG_PATH: ./config/logging.yaml
